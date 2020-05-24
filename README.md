@@ -14,7 +14,7 @@ Ejecuta el comando para descargar todas las librarías necesarias.
 ```sh
 $ npm install
 ```
-## Detalle de dependencias especificas.
+### Detalle de dependencias especificas.
 
 ## express v4.17.1.
 
