@@ -1,60 +1,64 @@
-# Prueba Técnica - FrontEnd - Multiplica 
+# Prueba Técnica - FrontEnd - Go Cloud 
 Ing. Pedro A. Alarcon Atencio <br>
 pedroangel126@gmail.com
 
 # Información General
-Esta es una pequeña aplicación web diseñada para darles fácil acceso al listado aprobado de colores a utilizar dentro de una organización.
+Esta es una pequeña aplicación que ofrece una API para guardar la información de Usuario.
 
 # Instalación
 Clonar el repositorio: 
 ```sh
-$ git clone https://github.com/pedroangel/reto-colores.git
+$ git clone https://github.com/pedroangel/infousers.git
 ```
 Ejecuta el comando para descargar todas las librarías necesarias.
 ```sh
 $ npm install
 ```
 ## Detalle de dependencias especificas.
-Utilicé un <a href="https://www.creative-tim.com/product/vue-material-dashboard" target="_blank">Template</a> de VueJS y Material Design que he usado para hacer pruebas y cursos por mi cuenta, y aprovechar los componentes y estilos que este ofrece. 
-Este template ya posee sus dependencias internas que ofrecen componentes como la tarjeta usada para presentar los datos de los colores, las animaciones y efectos visuales, el manejo de grillas, el diseño responsive y el plugin de notificaciones. Por esto es recomendable utilizar el comando anterior.
 
-Para las otras dependencias fuera del template, se necesitaron:
+## express v4.17.1.
 
-## axios v0.19.2.
-Para el manejo de las peticiones a la API de colores suministrada.
 ```sh
-$ npm i axios
+$ npm i express
 ```
 
-## v-clipboard v2.2.3.
-Para la función de copiado del código hexadecimal al darle click a la ficha del color.
+## body-parser v1.19.0.
+
 ```sh
-$ npm i v-clipboard
+$ npm i body-parser
+```
+
+## aws-sdk v2.683.0.
+
+```sh
+$ npm i aws-sdk
+```
+
+## chilean-rut v1.0.24.
+Para la validacíon del Rut
+```sh
+$ npm i chilean-rut
+```
+
+## email-validator v2.0.4.
+Para la validacíon del Correo Electronico
+```sh
+$ npm i email-validator
+```
+
+## nodemon v2.0.4.
+Para ejecutar el servidor en localhost
+```sh
+$ npm install -g nodemon
 ```
 
 Una vez instaladas las dependencias, es necesario ejecutar el comando:
 ```sh
-$ npm run serve
+$ nodemon
 ```
-Para ejecutar el servidor en modo desarrolladores.
 
-O si prefieren, ejecutar el comando:
+ó
+
 ```sh
-$ npm run build
+$ node app.js
 ```
-Para crear una build de producción y al terminar el proceso ejecutar:
-```sh
-$ npm start
-```
-Para ver la versión productiva compilada.
-
-# Build de Producción Hosteado.
-La rama master de este repositorio posee un pipeline configurado en el servicio de Heroku.
-
-<a href="https://reto-colores.herokuapp.com/colores" target="_blank">APP Colores</a>
-
-Esta es la información básica del proceso y las herramientas usadas en el desarrollo del servicio requerido para la Prueba Técnica.
-
-Agradezco la oportunidad y el reto que represento este requerimiento.
-
-De ser necesario, por favor indicarme algún otro tipo de información que deba ser aclarada de mi parte. 
