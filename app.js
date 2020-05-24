@@ -11,6 +11,7 @@ app.get('/landing', function(req, res) {
 });
 
 app.post('/landing/subscriptions', async (req, res) => {
+    console.log("Entrando al servidor");
     let mensaje = {};
     let valid = true;
     
