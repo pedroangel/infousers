@@ -28,25 +28,25 @@ $ npm i express
 $ npm i body-parser
 ```
 
-## aws-sdk v2.683.0.
+### aws-sdk v2.683.0.
 
 ```sh
 $ npm i aws-sdk
 ```
 
-## chilean-rut v1.0.24.
+### chilean-rut v1.0.24.
 Para la validacíon del Rut
 ```sh
 $ npm i chilean-rut
 ```
 
-## email-validator v2.0.4.
+### email-validator v2.0.4.
 Para la validacíon del Correo Electronico
 ```sh
 $ npm i email-validator
 ```
 
-## nodemon v2.0.4.
+### nodemon v2.0.4.
 Para ejecutar el servidor en localhost
 ```sh
 $ npm install -g nodemon
