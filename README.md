@@ -1,4 +1,4 @@
-# Prueba Técnica - FrontEnd - Go Cloud 
+# Prueba Técnica - BackEnd - Go Cloud 
 Ing. Pedro A. Alarcon Atencio <br>
 pedroangel126@gmail.com
 
