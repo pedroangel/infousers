@@ -14,15 +14,15 @@ Ejecuta el comando para descargar todas las librarías necesarias.
 ```sh
 $ npm install
 ```
-### Detalle de dependencias especificas.
+## Detalle de dependencias especificas.
 
-## express v4.17.1.
+### express v4.17.1.
 
 ```sh
 $ npm i express
 ```
 
-## body-parser v1.19.0.
+### body-parser v1.19.0.
 
 ```sh
 $ npm i body-parser
