@@ -11,7 +11,6 @@ app.get('/landing', function(req, res) {
 });
 
 app.post('/landing/subscriptions', async (req, res) => {
-    console.log("Entrando al servidor");
     let mensaje = {};
     let valid = true;
     
@@ -76,7 +75,6 @@ app.post('/landing/subscriptions', async (req, res) => {
 app.get('/landing/user/:id', async (req, res) => {
     let mensaje = {};
     let data = await users_details.getUserByRut(req.params.id);
-    console.log("Respuesta: ", data);
     if(!data || data.Count == 0){
         mensaje = {
             status: 401,
@@ -97,4 +95,4 @@ app.get('/landing/user/:id', async (req, res) => {
     res.send(mensaje);
 });
 
-app.listen('3000');
+app.listen();
