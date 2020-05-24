@@ -7,7 +7,7 @@ AWS.config.update({
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
 });
 
-const table_name = process.env.TABLE_USERS_DETAILS;
+const table_name = "users_details";
 const dynamoDB = new AWS.DynamoDB.DocumentClient();
 
 exports.getUserByRut = (rut) => {
